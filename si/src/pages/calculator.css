@@ -1,0 +1,258 @@
+select, option{
+  font-size:13px;
+}
+
+ol.phpfmg_form{
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+}
+
+ol.phpfmg_form input, ol.phpfmg_form textarea, ol.phpfmg_form select{
+  border: 1px solid #ccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+ol.phpfmg_form li{
+  margin-bottom:5px;
+  clear:both;
+  display:block;
+  overflow:hidden;
+width: 100%
+}
+
+
+.form_field, .form_required{
+  font-weight : bold;
+}
+
+.form_required{
+  color:red;
+  margin-right:8px;
+}
+
+.field_block_over{
+}
+
+.form_submit_block{
+  padding-top: 3px;
+}
+
+.text_box, .text_area, .text_select {
+width: 200px;
+}
+
+.text_area{
+  height:80px;
+}
+
+.form_error_title{
+  font-weight: bold;
+  color: red;
+}
+
+.form_error{
+  background-color: #F4F6E5;
+  border: 1px dashed #ff0000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+tr td .col_label {
+width: 150px;
+}
+
+
+.form_error_highlight{
+  background-color: #F4F6E5;
+  border-bottom: 1px dashed #ff0000;
+}
+
+div.instruction_error{
+  color: red;
+  font-weight:bold;
+}
+
+hr.sectionbreak{
+  height:1px;
+  color: #ccc;
+}
+
+#one_entry_msg{
+background-color: #000000;
+border: 1px dashed #ff0000;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+
+#frmFormMailContainer input[type="submit"]:hover{
+  background-color: #E4F0F8;
+}
+
+  
+.span4 ul li {
+list-style:none;
+}
+
+
+.sip-calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: rgb(66, 124, 191);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .calculator-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    align-self: center;
+  }
+  
+  .calculator-container h2 {
+    text-align: center;
+  }
+  
+  .calculator-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .calculator-container input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  .calculator-container button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .calculator-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .calculator-container h3 {
+    margin-top: 20px;
+  }
+  
+  .calculator-container p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+
+
+
+  .calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .calculator-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-group input[type="range"] {
+    width: 100%;
+  }
+  
+  .input-group span {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .input-group button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+  }
